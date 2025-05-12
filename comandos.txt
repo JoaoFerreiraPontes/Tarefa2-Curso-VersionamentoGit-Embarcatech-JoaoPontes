@@ -1,0 +1,11 @@
+João Pontes
+git clone https://gitlab.com/mizael.cortez/curso-branchs-ifrn-ead
+git add texto.txt
+git commit -m 'Commit inicial na branch main com texto.txt'
+git checkout -b feature-1
+git commit -m 'Alteração do conteúdo em texto.txt na branch feature-1'
+git checkout main
+git commit -m 'Alteração do conteúdo em texto.txt na branch main'
+git merge feature-1
+git add texto.txt
+git commit -m 'Resolução do conflito e merge da branch feature-1 na main'
